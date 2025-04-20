@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './CPUUsageChart.css';
 
-const CPUUsageChart = ({ usage = 72 }) => {
+const CPUUsageChart = ({ serverId = 1 }) => {
+  const [usage, setUsage] = useState(null);
+
+  useEffect(() => {
+    fetch(`http://localhost:8000/metrics/${serverId}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.length > 0) {
+          setUsage(data[0].cpu); // Latest CPU usage
+        }
+      })
+      .catch((err) => console.error('Failed to fetch CPU data:', err));
+  }, [serverId]);
+
   const getStatusDetails = (value) => {
     if (value < 50) {
       return {
@@ -13,7 +26,7 @@ const CPUUsageChart = ({ usage = 72 }) => {
     } else if (value < 80) {
       return {
         text: 'Warning',
-        color: '#ff9800',
+        color: '#ff9001',
         range: '50% - 79%',
         description: 'CPU is under moderate load. Monitor for spikes.',
       };
@@ -26,6 +39,10 @@ const CPUUsageChart = ({ usage = 72 }) => {
       };
     }
   };
+
+  if (usage === null) {
+    return <div className="cpu-usage-container">Loading...</div>;
+  }
 
   const { text, color, range, description } = getStatusDetails(usage);
 

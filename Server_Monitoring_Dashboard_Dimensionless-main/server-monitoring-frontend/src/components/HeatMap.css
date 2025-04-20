@@ -1,21 +1,25 @@
 .heatmap-container {
-    background-color: white;
+    background-color: rgb(114, 179, 207);
     padding: 15px;
     border-radius: 12px;
+    border: brown 1px solid;
     width: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     text-align: center;
+
   }
   
   .heatmap-title {
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     color: #333;
   }
   
   .heatmap-container {
     flex: 1;
-    min-width: 260px;
+    min-width: 290px;
+    min-height: 460px;
   }
   

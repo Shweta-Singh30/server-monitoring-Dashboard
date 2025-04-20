@@ -10,7 +10,7 @@ SUPABASE_API_KEY = os.getenv("SUPABASE_API_KEY")
 @servers_bp.route("/", methods=["GET"])  # <- Same name here
 def get_servers():
     try:
-        url = f"{SUPABASE_URL}/rest/v1/server"
+        url = f"{SUPABASE_URL}/rest/v1/servers"
         headers = {
             "apikey": SUPABASE_API_KEY,
             "Authorization": f"Bearer {SUPABASE_API_KEY}",

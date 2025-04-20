@@ -1,13 +1,16 @@
 .server-table-container {
     margin: 20px;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 12px;
+    padding: 1rem;
+    background: #d5e4e9;
+    
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   }
   
   .server-table {
     margin-top: 20px;
+  }
+  .server-table-containerh2{
+    color: #000;
   }
   
   .table-header,
@@ -17,12 +20,13 @@
     padding: 12px 16px;
     font-size: 14px;
     align-items: center;
+    border: black 1px solid;
   }
   
   .table-header {
-    background-color: #f1f1f1;
+    background-color: #a66fee;
     font-weight: bold;
-    border-radius: 8px;
+    
     color: #333;
   }
   
@@ -57,7 +61,7 @@
   
   .server-table-container {
     overflow-x: auto;
-    background-color: white;
+    
     padding: 15px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
