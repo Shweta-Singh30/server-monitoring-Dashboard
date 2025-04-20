@@ -65,12 +65,6 @@ Includes:
 
 ---
 
-## 🚀 Developer
 
-**Atharva Karle**  
-🔗 [GitHub Profile](https://github.com/KARLE-ATHARVA)  
-📬 atharvakarle2717@gmail.com
-
----
 
 > 📌 This project satisfies the expected objectives around code quality, API design, optimization, modular architecture, and clean database integration — all backed by a user-friendly UI and scalable structure.
