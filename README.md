@@ -31,20 +31,6 @@ A full-stack web-based application to monitor server health, resource usage, and
 
 ---
 
-## 🖼️ Dashboard Preview
-
-![Dashboard UI_1](./Dashboard_1.jpeg)
-![Dashboard UI_2](./Dashboard_2.jpeg)
-
----
-
-## 🧱 Database Schema Diagram
-
-![Database Schema_1](./PostgreSQL_1.jpeg)
-![Database Schema_2](./PostgreSQL_2.jpeg)
-![Database Schema_3](./PostgreSQL_3.jpeg)
-
----
 
 ## 🧠 Code Design Principles Followed
 
@@ -65,6 +51,3 @@ Includes:
 
 ---
 
-
-
-> 📌 This project satisfies the expected objectives around code quality, API design, optimization, modular architecture, and clean database integration — all backed by a user-friendly UI and scalable structure.
