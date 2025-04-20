@@ -30,7 +30,13 @@ A full-stack web-based application to monitor server health, resource usage, and
   Optimized, modular Flask app using SQLAlchemy for ORM, environment-based config, and fully RESTful endpoints.
 
 ---
+## 📸 Screenshots
 
+### 🖥️ Full Dashboard View
+![Dashboard1](./img-1.jpg)
+![Dashboard2](./img-2.jpg)
+
+---
 
 ## 🧠 Code Design Principles Followed
 
