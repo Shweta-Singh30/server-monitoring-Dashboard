@@ -41,12 +41,9 @@ A full-stack web-based application to monitor server health, resource usage, and
 
 ---------
 
-<h3>🎬 Dashboard Preview (Video)</h3>
+### 🎬 Dashboard Preview
 
-<video width="100%" controls>
-  <source src="./Dashboard.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Dashboard Preview](./video-preview.jpg)](./Dashboard.mp4)
 
 ---
 
