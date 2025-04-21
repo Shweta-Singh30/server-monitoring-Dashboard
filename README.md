@@ -37,7 +37,7 @@ A full-stack web-based application to monitor server health, resource usage, and
 ### 🖥️ Full Dashboard View
 
 ![Dashboard1](./Img-1.jpg)
-![Dashboard2](./Img-2.jpg)
+![Dashboard2](./img-2.jpg)
 
 ---------
 
@@ -47,6 +47,7 @@ A full-stack web-based application to monitor server health, resource usage, and
   <source src="./Dashboard.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 ---
 
 ## 🧠 Code Design Principles Followed
