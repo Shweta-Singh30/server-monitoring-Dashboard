@@ -35,7 +35,7 @@ A full-stack web-based application to monitor server health, resource usage, and
 ### 🖥️ Full Dashboard View
 
 ![Dashboard1](./Img-1.jpg)
-![Dashboard2](./Img-2.jpg)
+
 
 ---
 
