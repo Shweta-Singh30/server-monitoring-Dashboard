@@ -41,11 +41,7 @@ A full-stack web-based application to monitor server health, resource usage, and
 
 ---------
 
-### 🎬 Dashboard Preview
 
-[![Dashboard Preview](Dashboard Video)](./Dashoard.mp4)
-
----
 
 ## 🧠 Code Design Principles Followed
 
@@ -64,5 +60,4 @@ Includes:
 - `metrics`: Tracks RAM/CPU usage over time for each server  
 - `alerts`: Can be extended for threshold-based event alerts
 
----
 
