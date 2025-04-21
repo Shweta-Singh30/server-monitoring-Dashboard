@@ -26,6 +26,8 @@ A full-stack web-based application to monitor server health, resource usage, and
 - **Professional UI:**  
   Polished white-themed dashboard layout with well-proportioned components and clean animations for a modern experience.
 
+  
+
 - **Backend Design:**  
   Optimized, modular Flask app using SQLAlchemy for ORM, environment-based config, and fully RESTful endpoints.
 
@@ -35,8 +37,17 @@ A full-stack web-based application to monitor server health, resource usage, and
 ### 🖥️ Full Dashboard View
 
 ![Dashboard1](./Img-1.jpg)
+
 ![Dashboard2](./Img-2.jpg)
 
+---------
+
+<h3>🎬 Dashboard Preview (Video)</h3>
+
+<video width="100%" controls>
+  <source src="./Dashboard.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## 🧠 Code Design Principles Followed
